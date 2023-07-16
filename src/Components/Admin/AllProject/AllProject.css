@@ -1,0 +1,41 @@
+#toy-container {
+  padding: 40px 0;
+  background-image: linear-gradient(
+    to right,
+    #305183,
+    #586aa0,
+    #7e85bd,
+    #a5a0da,
+    #ccbdf8
+  );
+  min-height: 100vh;
+}
+
+.select-size {
+  width: 60px;
+}
+#seacrh-input {
+  width: 250px;
+}
+
+.p-size {
+  width: 75px;
+  height: 50px;
+}
+
+.bg-one {
+  background: #00ff62;
+}
+
+.c-img {
+  width: 100%;
+  height: 200px;
+}
+#bb {
+  width: 52%;
+  height: 500px;
+}
+
+.img-bb {
+  width: 50%;
+}
