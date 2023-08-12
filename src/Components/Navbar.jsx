@@ -17,7 +17,7 @@ import React from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { VscChromeClose } from "react-icons/vsc";
 
-import Resume from "../Resume/Md Sabbir.pdf";
+import Resume from "../Resume/Resume Of Md Sabbir.pdf";
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -70,8 +70,7 @@ const Navbar = () => {
           <Button
             onClick={() => {
               window.open(
-                "https://drive.google.com/file/d/1JjG-FGoHVF5-dD-74IMMujUmdd97txbY/view?usp=drive_link",
-                "_blank"
+                "https://drive.google.com/file/d/1TWmgN5yh_0Ad76pLalhyEA8PUtxmSKGu/view?usp=drive_link"
               );
             }}
           >

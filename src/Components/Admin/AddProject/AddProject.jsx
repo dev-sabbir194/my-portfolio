@@ -37,13 +37,16 @@ const AddProject = () => {
 
     try {
       // Send the project data as JSON to the specified URL
-      const response = await fetch("http://localhost:5000/projects", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(project),
-      });
+      const response = await fetch(
+        "https://portfolio-server-dev-sabbir194.vercel.app/projects/",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(project),
+        }
+      );
 
       // Reset form fields after successful submission
       setTitle("");

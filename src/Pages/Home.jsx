@@ -31,7 +31,7 @@ import Svg1 from "../Components/Svg1";
 import Svg2 from "../Components/Svg2";
 import Svg3 from "../Components/Svg3";
 import Slider from "react-slick";
-import Resume from "../Resume/Md Sabbir.pdf";
+import Resume from "../Resume/Resume Of Md Sabbir.pdf";
 
 const Home = () => {
   const [projects, setProjects] = useState([]);
